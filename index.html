@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>🌱 Crop Disease Detector</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌱 Crop Disease Detector</h1>
+    <p>Upload a leaf image or use your webcam to check if the crop is healthy or diseased.</p>
+  </header>
+
+  <main>
+    <section id="controls">
+      <button id="start-webcam">📷 Start Webcam</button>
+      <button id="stop-webcam" disabled>✖ Stop Webcam</button>
+      <button id="capture" disabled>🎯 Capture & Predict</button>
+      <input id="upload" type="file" accept="image/*" />
+    </section>
+
+    <section id="viewer">
+      <div id="webcam-container">Webcam not started</div>
+      <div id="result">
+        <strong>Predictions will appear here</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with ❤️ using <a href="https://teachablemachine.withgoogle.com/" target="_blank">Google Teachable Machine</a> & TensorFlow.js</p>
+  </footer>
+
+  <!-- TensorFlow.js and Teachable Machine helper -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
