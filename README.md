@@ -46,6 +46,10 @@ CropDetector/
    ```
 
 ## 🌐 Live Demo
+
+<img width="1275" height="670" alt="Screenshot 2025-09-10 at 8 23 13 PM" src="https://github.com/user-attachments/assets/73dc0054-ebb2-4e14-8eac-53b8a54290a2" /> <img width="1280" height="684" alt="Screenshot 2025-09-10 at 7 59 54 PM" src="https://github.com/user-attachments/assets/87bf55bb-30ff-4858-b3f6-a47d924535ca" />
+
+
 👉 [GitHub Pages Link](https://J-Phoenix.github.io/Crop-Disease--Detector/) 
 
 ---
